@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jordan Johns</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.stellar.js"></script>
+    <script src="js/scrip.js"></script>
+
+    <script src="js/jquery.nicescroll.js"></script>
+	<script>
+	    $(document).ready(function(){
+	        $(window).stellar();
+	    });
+	</script>
+
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+</head>	
+<body>
+	<!-- Navbar  -->
+	<nav class="navbar navbar-custom navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="#">Jordan Johns</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#home">HOME</a></li>
+	        <li><a href="#about">ABOUT</a></li>
+	        <li><a href="#projects">PROJECTS</a></li>
+	        <li><a href="#resume">RESUME</a></li>
+	        <li><a href="#contact">CONTACT</a> 
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container-fluid">
+		<a name="home" class="anchor" id="top"></a>
+	    <div id="wall_1" class="image" data-stellar-background-ratio="0.4">
+	        <div id="name">
+	            Jordan Johns
+	        </div>
+
+	        <div id="subhead">
+	            Web Development, Austin, TX
+	        </div>
+		   
+		</div>    
+
+	    <a name="about" class="anchor" id="top"></a>
+	    <div id="content_1" class="content">
+		     
+		        <h1>About Me:</h1>
+		        <h2>
+		            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+		         
+		        </h2>
+		                
+	    </div>
+	    
+	    
+	    <div id="wall_2" class="image" data-stellar-background-ratio="0.4"></div>
+	    <a name="projects" class="anchor" id="top"></a>
+	    
+	    <div id="content_2" class="content" >
+	         <h1>Projects:</h1>
+	            <h2>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	                
+	            </h2>
+	        
+	    </div>
+	    
+	    
+
+	    <div id="wall_3" class="image" data-stellar-background-ratio="0.4"></div>
+	    <a name="resume" class="anchor" id="top"></a>
+	    <div id="content_3" class="content">
+	         <h1>Resume:</h1>
+	            <h2>
+	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	               
+	            </h2>  
+	    </div>
+
+	    <div id="wall_5" class="image" data-stellar-background-ratio="0.4"></div>
+	    <a name="contact" class="anchor" id="top"></a>
+	    <div id="content_5" class="content">
+	         <h1>Contact:</h1>
+	            <ul id="contact_list">
+	                <li><a href="mailto:jordanrossjohns@gmail.com">E-Mail</a></li>
+	                <li><a href="https://github.com/jortron">Github</a></li>
+	                <li><a href="http://www.linkedin.com/in/jordanjohns">Linkedin</a></li>
+
+	            </ul>    
+	              
+	              
+	    </div>
+	</div>
+
+</body>
+</html>
