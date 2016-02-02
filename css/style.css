@@ -22,7 +22,7 @@ body {
     }
 
 .content {
-    height: 650px;
+    height: 1100px;
     width:100%;
     background: #b98ef0;
     z-index: 2;
@@ -44,11 +44,12 @@ body {
 }
 
 #content_1 {
-    background-color: #009fdf;
+    background-color: #4cc5f9 ;
 }
 
 #content_2 {
-    background-color: #fff100;
+    background-color: #fff584;
+
 }
 
 #content_3 {
@@ -60,8 +61,8 @@ body {
 }
 
 #content_5 {
-    background-color: #f80000;
-    background-image: url(../images/email.png);
+    background-color: #ff5b00;
+    /*background-image: url(../images/email.png);*/
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-position: 700px 100px;
@@ -80,9 +81,7 @@ body {
 }
 
 #content_5 a:hover {
-    color: #f80000;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    color: #f5f074;
     text-decoration: none;
 
 }
@@ -100,6 +99,7 @@ body {
 #wall_2 {
     background: url(../images/02.png) repeat;
     background-attachment: fixed;
+
 }
 #wall_3 {
     background: url(../images/01.png) repeat;
@@ -250,4 +250,23 @@ a.anchor {
     text-decoration: none;
 
    
+}
+
+#resdisplay {
+    vertical-align: center;
+    margin-left: 240px;
+}
+
+#project {
+    padding-top: 80px;
+}
+
+#email {
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .killimage {display:none;}
+
 }
